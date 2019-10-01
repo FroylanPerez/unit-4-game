@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Crystal Collector Game</title>
 </head>
 <body background = "assets/images/beige-tiles.png">
@@ -24,8 +25,8 @@
     <div class="container">
 
         <div class="row">
-            <div class="col-md-4">
-                <h3>Random Number</h3>
+            <div class="col-md-4" id="randomNumberBox">
+                <h3>Try to match this number:</h3>
             </div>
             <div class="col-md-1">
                 <img class="crystal" id="crystal-0" src="assets/images/crystal1.jpg" width="75px" heigth="100px">
@@ -39,13 +40,13 @@
             <div class="col-md-1">
                 <img class="crystal" id="crystal-3" src="assets/images/crystal4.jpg" width="75px" heigth="100px">
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4" id="scoreBox">
                 <h3>Your total scores is:</h3>
             </div>
         </div>
 
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4" id="randomNumberBox">
                 <h1 id="randomNumber"></h1>
             </div>
             <div class="col-md-2">
@@ -54,20 +55,21 @@
             <div class="col-md-2">
                 <span id="losses"></span>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4" id="scoreBox">
                 <h1 id="totalScore"></h1>
             </div>
         </div>
 
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4" id="randomNumberBox">
                 <span></span>
             </div>   
             <div class="col-md-4">
                 <h1 id="alert"></h1>
             </div>
-            <div class="col-md-4">
-                <span></span>
+            <div class="col-md-4" id="box">
+                <h3 id="win">Wins: </h3>
+                <h3 id="lose">Losses: </h3>
             </div>
     
         </div>

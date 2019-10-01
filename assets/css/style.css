@@ -1,0 +1,27 @@
+#randomNumber {
+    color: blue;
+    font-size: 70px;
+    /* margin: 0 auto 0 50; */
+}
+
+#alert {
+    color: blue;
+    font-size: 50px;
+}
+
+#box {
+    background-color: pink;
+}
+
+#randomNumberBox {
+    background-color: #90EE90;
+    color: blue;
+}
+
+#scoreBox {
+    background-color: #FDFD96;
+}
+
+#totalScore {
+    font-size: 65px;
+}
